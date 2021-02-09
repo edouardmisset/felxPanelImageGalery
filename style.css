@@ -1,3 +1,8 @@
+:root {
+  --translate: 5rem;
+  --negative-translate: -5rem;
+}
+
 html {
   box-sizing: border-box;
   background: #ffc600;
@@ -74,6 +79,17 @@ body {
   font-size: 4em;
 }
 
-.panel.open {
+.open {
   font-size: 40px;
+  flex: 2;
+  font-size: 40px;
+  flex: 2;
+}
+
+.moveUp {
+  transform: translateY(var(--negative-translate));
+}
+
+.moveDown {
+  transform: translateY(var(--translate));
 }
