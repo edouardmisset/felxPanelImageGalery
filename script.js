@@ -4,9 +4,8 @@ panels.forEach((panel) => {
   panel.addEventListener("click", displayPanel);
 });
 
-function displayPanel(event) {
-  const element = event.target;
-  element.classList.toggle("open");
-  element.querySelector("p:first-child").classList.toggle("moveUp");
-  element.querySelector("p:last-child").classList.toggle("moveDown");
+function displayPanel() {
+  this.classList.toggle("open");
+  this.querySelector("p:first-child").classList.toggle("first");
+  this.querySelector("p:last-child").classList.toggle("last");
 }

@@ -79,17 +79,15 @@ body {
   font-size: 4em;
 }
 
+.first {
+  transform: translateY(-10rem);
+}
+
+.last {
+  transform: translateY(10rem);
+}
+
 .open {
   font-size: 40px;
-  flex: 2;
-  font-size: 40px;
-  flex: 2;
-}
-
-.moveUp {
-  transform: translateY(var(--negative-translate));
-}
-
-.moveDown {
-  transform: translateY(var(--translate));
+  flex: 4;
 }
