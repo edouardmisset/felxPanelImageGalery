@@ -1,25 +1,57 @@
+/* Table of content
+
+  0. Global variables
+
+  1. Global styles
+
+  2. typography
+
+  3. Layout
+
+  4. Components
+
+*/
+
+/* ================
+  Global variables
+  ================*/
+
 :root {
   --translate: 5rem;
   --negative-translate: -5rem;
 }
 
+/* ================
+  Global styles
+  ================*/
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 html {
   box-sizing: border-box;
   background: #ffc600;
-  font-family: "helvetica neue";
-  font-size: 20px;
-  font-weight: 200;
 }
 
 body {
   margin: 0;
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
+/* ================
+  Typography
+  ================*/
+
+html {
+  font-family: "helvetica neue";
+  font-size: 20px;
+  font-weight: 200;
 }
+
+/* ================
+  Layout
+  ================*/
 
 .panels {
   min-height: 100vh;
